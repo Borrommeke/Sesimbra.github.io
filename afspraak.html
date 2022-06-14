@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tandartsafspraak</title>
+</head>
+<body>
+<h1>Tandartsafspraak</h1>
+<p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus, odio quis ultricies auctor, metus lorem interdum eros, quis efficitur massa ligula gravida urna. Sed quis nunc ac nulla pretium facilisis a non felis. Praesent eget dapibus odio. Etiam dignissim arcu quis nunc aliquam, sit amet consectetur est fringilla. Nunc sit amet varius ipsum, sed ultricies orci. Integer sit amet ornare libero. Proin sodales consequat aliquam. Praesent in magna magna. Suspendisse justo arcu, ultricies sit amet iaculis porttitor, rhoncus vel elit. Etiam vulputate quam id sapien blandit pulvinar.
+<br>
+<br>
+Nullam sagittis massa erat. Phasellus pharetra urna turpis, id lacinia velit bibendum consequat. Curabitur egestas, enim et consectetur imperdiet, felis sapien placerat dui, et sollicitudin lacus dolor at mi. Aliquam aliquam sit amet tellus nec commodo. Nulla condimentum, sapien lacinia aliquam congue, libero odio porttitor orci, at faucibus enim arcu ac nibh. Sed non ornare lectus, in imperdiet nibh. Nunc id ornare justo. Nunc fermentum sodales placerat. Praesent sit amet tortor odio. Quisque elementum ex in blandit tincidunt. Mauris venenatis consectetur finibus. Nunc eu odio augue. Suspendisse porta ante nec tortor pharetra, sed dapibus libero tincidunt.
+<br>
+<br>
+Proin condimentum ultricies mi, ut faucibus lectus lobortis sed. Etiam scelerisque purus id pharetra mattis. Suspendisse arcu dolor, pretium nec lacinia non, tempor nec ante. Maecenas mollis consectetur ultrices. Morbi dignissim eros nisl, eu convallis risus ultricies at. Nam at fermentum diam, facilisis varius turpis. Proin aliquam arcu eu massa eleifend, at auctor velit commodo. Mauris convallis lacinia commodo. Sed semper magna ante, quis dignissim neque.</p>
+<br>
+<hr>
+<br>
+<img src="images.png" alt="Gebit ovezicht" width="300">
+<img src="gebitnummering.png" alt="saneringskaart" width="300">
+<img src="foto.jpg" alt="roentgenfoto gebit" width="300">
+<br>
+<hr>
+<br>
+<form id="contactform" action="https://formspree.io/f/xayvkbbe" method="post">
+<fieldset>
+<legend>Persoonlijke gegevens</legend>
+<input type="radio" name="geslacht" value="man" checked>Man
+<input type="radio" name="geslacht" value="vrouw">Vrouw
+<br>
+<br>
+<label for="naam">Naam:</label>
+<input id="naam" type="text" name="naam">
+<br>
+<br>
+<label for="adres">Adres:</label>
+<input id="adres" type="text" name="adres">
+<br>
+<br>
+<label for="postcode">Postcode:</label>
+<input id="postcode" type="text" name="postcode">
+<br>
+<br>
+<label for="woonplaats">Woonplaats:</label>
+<input id="woonplaats" type="text" name="woonplaats">
+<br>
+<br>
+<label for="telefoonnummer">Telefoon:</label>
+<input id="telefoonnummer" type="tel" name="telefoonnummer">
+<br>
+<br>
+<label for="emailadres">Email:</label>
+<input id="emailadres" type="text" name="emailadres">
+<br>
+<br>
+<label for="geboortedatum">Geboortedatum:</Label>
+<input id="geboortedatum" type="date" min="1911-01-01">
+<br>
+<br>
+<label for="profielfoto">Profielfoto:</label>
+<input id="profielfoto" type="file" name="profielfoto">
+<br>
+<br>
+</fieldset>
+<br>
+<br>
+<fieldset>
+<legend>Beschrijving klachten</legend>
+<tr>
+<td><b> Selecteer minimaal één van de volgende mogelijkheden: </b></td>
+<br>
+<br>
+<td>
+<input type="checkbox" name="klacht" value="ja">Tandvlees problemen
+<input type="checkbox" name="klacht" value="ja">Kies- of tandpijn
+<input type="checkbox" name="klacht" value="ja">Gaatje(s)
+<input type="checkbox" name="klacht" value="ja">Tandprothese
+<input type="checkbox" name="klacht" value="ja">Wijsheidstanden
+<input type="checkbox" name="klacht" value="ja">Anders (specificeer onder "Toelichting klachten")
+</td>
+</tr>
+<hr>
+<br>
+<br>
+<label for="klachtfoto">Foto klacht (indien beschikbaar):</label>
+<input id="klachtfoto" type="file" name="klachtfoto">
+</fieldset>
+<br>
+<br>
+<fieldset>
+<legend>Toelichting klachten</legend>
+<tr>
+<td><b>Gelieve hier de klachten te beschrijven.</b></td>
+<br>
+<br>
+<td><textarea name ="bericht" maxlength ="1500">
+</textarea>
+</td>
+<br>
+<br>
+<td><b>Datum</b></td>
+<br>
+<br>
+<td>
+<input type="date" name="datum" min="2022-06-15">
+</td>
+</tr>
+</fieldset>
+<br>
+<br>
+<input type="text" name="_gotcha" style="display:none"/>
+<input type="submit" value="Verzend">
+</form>
+</body>
+</html>
